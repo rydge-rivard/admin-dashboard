@@ -50,6 +50,10 @@ button {
     padding: 7px 20px;
 }
 
+button:hover {
+    background-color: #4338ca;
+}
+
 .sidebar img {
     height: 24px;
     justify-self: end;
