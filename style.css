@@ -50,12 +50,12 @@ button {
     padding: 7px 20px;
 }
 
-.sidebar-top img {
+.sidebar img {
     height: 24px;
     justify-self: end;
 }
 
-.sidebar-top {
+.sidebar ul {
     display: grid;
     grid-template-columns: 50px 100px;
     grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
