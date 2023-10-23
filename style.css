@@ -10,7 +10,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 240px 4fr;
+    grid-template-columns: 220px 4fr;
 }
 
 .sidebar {
