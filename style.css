@@ -3,3 +3,9 @@
 html {
     font-family: 'Quicksand', sans-serif;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    border: 2px solid black;
+}
