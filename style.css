@@ -4,8 +4,11 @@ html {
     font-family: 'Quicksand', sans-serif;
 }
 
+h2,
+h3,
 body {
     margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -65,5 +68,5 @@ button:hover {
     grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
     align-items: end;
     gap: 16px;
-    padding: 0 0 120px 0;
+    padding: 0 0 40px 0;
 }
