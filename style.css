@@ -121,7 +121,8 @@ h3 {
     font-size: 11px;
 }
 
-.trending-wrapper img {
+.trending-wrapper img,
+.header-wrapper-top img:last-of-type {
     width: 37px;
     height: 36px;
     object-fit: cover;
@@ -160,6 +161,7 @@ h3 {
 .header-wrapper-top {
     display: flex;
     justify-content: start;
+    align-items: center;
     gap: 24px;
     padding: 24px 48px 0 48px;
 }
