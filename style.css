@@ -6,7 +6,8 @@ html {
 
 h2,
 h3,
-body {
+body,
+p {
     margin: 0;
     padding: 0;
 }
@@ -86,7 +87,6 @@ button:hover {
 
 .title + p {
     font-size: 12.5px;
-    margin: 0;
     color: #71717a;
 }
 
@@ -163,7 +163,7 @@ h3 {
     justify-content: start;
     align-items: center;
     gap: 24px;
-    padding: 24px 48px 0 48px;
+    padding: 12px 48px 12px 48px;
 }
 
 .header-wrapper-top input {
@@ -178,4 +178,36 @@ h3 {
 
 .spacer {
     flex: 1 10 auto;
+}
+
+.header-wrapper-bot {
+    display: grid;
+    grid-template-columns: 54px;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 12px 48px 12px 48px;
+    gap: 24px;
+}
+
+.button-wrapper {
+    justify-self: end;
+    display: flex;
+    gap: 24px;
+}
+
+.header-wrapper-bot img {
+    width: 54px;
+    height: 53px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-wrapper-bot > div p {
+    font-size: 12.5px;
+    font-weight: 600;
+}
+
+.header-wrapper-bot > div p + p {
+    font-size: 20px;
+    font-weight: 600;
 }
