@@ -156,3 +156,24 @@ h3 {
 .header img {
     width: 24px;
 }
+
+.header-wrapper-top {
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    padding: 24px 48px 0 48px;
+}
+
+.header-wrapper-top input {
+    flex: 2;
+    max-width: 50%;
+    border-radius: 16px;
+    border: none;
+    background-color: #e5e5e5;
+    /* margin: 0 15rem 0 12px; */
+    padding: 4px 12px;
+}
+
+.spacer {
+    flex: 1 10 auto;
+}
