@@ -97,17 +97,22 @@ h3 {
     padding: 24px 0 16px 24px;
 }
 
-.announcements-wrapper {
-    display: grid;
-    gap: 24px;
+.announcements-wrapper,
+.trending-wrapper {
     padding: 16px 32px 32px 24px;
     background-color: white;
     border-radius: 8px;
     margin: 0 24px;
 }
 
+.announcements-wrapper {
+    display: grid;
+    gap: 24px;
+}
+
 .announcements-wrapper,
-.card {
+.card,
+.trending-wrapper {
     box-shadow: 5px 5px 10px -10px;
 }
 
@@ -127,8 +132,4 @@ h3 {
     grid-template-rows: repeat(auto-fit, minmax(24px, 1fr));
     align-items: center;
     gap: 12px;
-    padding: 16px 32px 32px 24px;
-    background-color: white;
-    border-radius: 8px;
-    margin: 0 24px;
 }
