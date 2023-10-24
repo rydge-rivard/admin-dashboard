@@ -102,7 +102,7 @@ h3 {
     padding: 16px 32px 32px 24px;
     background-color: white;
     border-radius: 8px;
-    margin: 0 24px;
+    margin: 0 24px 24px;
 }
 
 .announcements-wrapper {
@@ -117,7 +117,10 @@ h3 {
 }
 
 .trending-wrapper img {
-    width: 24px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
     justify-self: end;
 }
 
@@ -128,8 +131,8 @@ h3 {
 
 .trending-wrapper {
     display: grid;
-    grid-template-columns: 24px;
+    grid-template-columns: 36px;
     grid-template-rows: repeat(auto-fit, minmax(24px, 1fr));
     align-items: center;
-    gap: 12px;
+    gap: 16px;
 }
