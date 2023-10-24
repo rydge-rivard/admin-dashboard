@@ -91,6 +91,7 @@ button:hover {
 .title + p {
     font-size: 12.5px;
     margin: 0;
+    color: #71717a;
 }
 
 h3 {
@@ -114,6 +115,14 @@ h3 {
 .card,
 .trending-wrapper {
     box-shadow: 5px 5px 10px -10px;
+}
+
+.announcements-wrapper .title {
+    font-size: 14px;
+}
+
+.announcements-wrapper .title + p {
+    font-size: 11px;
 }
 
 .trending-wrapper img {
